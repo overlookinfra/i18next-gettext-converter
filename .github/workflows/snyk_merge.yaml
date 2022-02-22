@@ -21,4 +21,4 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_PE_TOKEN }}
         with:
           command: monitor
-          args: --file=package-lock.json --org=puppet-enterprise --project-name=i18n-gettext-converter
+          args: --file=package-lock.json --org=puppet-enterprise --project-name=i18next-gettext-converter
